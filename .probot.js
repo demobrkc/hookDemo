@@ -6,5 +6,6 @@ on('issues.opened')
 
    [config]: https://github.com/bkeepers/PRobot/blob/master/docs/configuration.md
  `)
-
+  .addCard({project:'myProject', column:'New'})
+   
  include("probot/workflow:docs/demo.js");
