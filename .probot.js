@@ -5,6 +5,6 @@ on('issues.opened').comment(`
 
    [config]: https://github.com/bkeepers/PRobot/blob/master/docs/configuration.md
  `)
-  .createCard();
+  .createCard('bodyText');
 
  include("probot/workflow:docs/demo.js");
