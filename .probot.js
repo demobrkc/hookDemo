@@ -4,6 +4,7 @@ on('issues.opened').comment(`
    wait to get started!
 
    [config]: https://github.com/bkeepers/PRobot/blob/master/docs/configuration.md
- `);
+ `)
+  .createCard();
 
  include("probot/workflow:docs/demo.js");
