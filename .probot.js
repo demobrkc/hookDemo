@@ -6,6 +6,6 @@ on('issues.opened')
 
    [config]: https://github.com/bkeepers/PRobot/blob/master/docs/configuration.md
  `)
-  .createCard({project:'myProject', column:'New'})
+  // .createCard({project:'myProject', column:'New'})
    
  include("probot/workflow:docs/demo.js");
